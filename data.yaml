@@ -1,0 +1,81 @@
+# JavaScript provides a wide array of event listeners to handle various types of events that can occur in a web page. These events can be broadly categorized into several types: UI events, mouse events, keyboard events, form events, document events, window events, and more.
+
+# Here is a comprehensive list of common event listeners available in JavaScript:
+
+UI Events:
+  - load: Fired when the whole page has loaded, including all dependent resources such as stylesheets and images.
+  - unload: Fired when the document or a child resource is being unloaded.
+  - resize: Fired when the document view is resized.
+  - scroll: Fired when the document view or an element is scrolled.
+
+Focus Events:
+  - focus: Fired when an element gains focus.
+  - blur: Fired when an element loses focus.
+  - focusin: Fired when an element is about to gain focus.
+  - focusout: Fired when an element is about to lose focus.
+
+Mouse Events:
+  - click: Fired when a pointing device button (usually a mouse) is pressed and released on an element.
+  - dblclick: Fired when a pointing device button is clicked twice on an element.
+  - mousedown: Fired when a pointing device button is pressed on an element.
+  - mouseup: Fired when a pointing device button is released over an element.
+  - mousemove: Fired when a pointing device is moved over an element.
+  - mouseover: Fired when a pointing device is moved onto an element.
+  - mouseout: Fired when a pointing device is moved off an element.
+  - mouseenter: Fired when a pointing device is moved onto an element (does not bubble).
+  - mouseleave: Fired when a pointing device is moved off an element (does not bubble).
+
+Keyboard Events:
+  - keydown: Fired when a key is pressed down.
+  - keyup: Fired when a key is released.
+  - keypress: Fired when a key is pressed (deprecated, use keydown or keyup instead).
+
+Form Events:
+  - submit: Fired when a form is submitted.
+  - change: Fired when the value of an <input>, <select>, or <textarea> element has changed.
+  - input: Fired when the value of an <input> or <textarea> element is changed.
+  - reset: Fired when a form is reset.
+  - invalid: Fired when a submittable element has been checked and doesn't satisfy its constraints.
+
+Clipboard Events:
+  - copy: Fired when the content is copied.
+  - cut: Fired when the content is cut.
+  - paste: Fired when the content is pasted.
+
+Drag and Drop Events:
+  - drag: Fired when an element or text selection is being dragged.
+  - dragstart: Fired when the user starts dragging an element or text selection.
+  - dragend: Fired when a drag operation is being ended (by releasing a mouse button or hitting the escape key).
+  - dragenter: Fired when a dragged element or text selection enters a valid drop target.
+  - dragover: Fired when an element or text selection is being dragged over a valid drop target.
+  - dragleave: Fired when a dragged element or text selection leaves a valid drop target.
+  - drop: Fired when an element or text selection is dropped on a valid drop target.
+
+Media Events:
+  - play: Fired when the media begins to play.
+  - pause: Fired when the media is paused.
+  - ended: Fired when the media has reached the end.
+  - timeupdate: Fired when the time indicated by the currentTime attribute has been updated.
+
+Touch Events:
+  - touchstart: Fired when a touch point is placed on the touch surface.
+  - touchmove: Fired when a touch point is moved along the touch surface.
+  - touchend: Fired when a touch point is removed from the touch surface.
+  - touchcancel: Fired when a touch point has been disrupted in some way.
+
+Pointer Events:
+  - pointerdown: Fired when a pointer becomes active.
+  - pointerup: Fired when a pointer is no longer active.
+  - pointermove: Fired when a pointer changes coordinates.
+  - pointerover: Fired when a pointer is moved into an element's hit test boundaries.
+  - pointerout: Fired when a pointer is moved out of an element's hit test boundaries.
+  - pointerenter: Fired when a pointer enters an element (does not bubble).
+  - pointerleave: Fired when a pointer leaves an element (does not bubble).
+
+Wheel Events:
+  - wheel: Fired when a wheel button of a pointing device (usually a mouse) is rotated.
+  - Miscellaneous Events:
+  - contextmenu: Fired when the right button of the mouse is clicked (before the context menu is displayed).
+  - select: Fired when some text has been selected.
+  - DOMContentLoaded: Fired when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.
+These events cover a wide range of user interactions and changes in the document's state, providing developers with the tools to create dynamic and responsive web applications.
