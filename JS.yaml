@@ -74,7 +74,8 @@ Pointer Events:
 
 Wheel Events:
   - wheel: Fired when a wheel button of a pointing device (usually a mouse) is rotated.
-  - Miscellaneous Events:
+
+Miscellaneous Events:
   - contextmenu: Fired when the right button of the mouse is clicked (before the context menu is displayed).
   - select: Fired when some text has been selected.
   - DOMContentLoaded: Fired when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.
