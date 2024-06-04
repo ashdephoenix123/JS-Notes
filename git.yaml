@@ -23,3 +23,7 @@ Option 4: Add a New Remote with a Different Name
   - If you want to add another remote without removing or renaming the existing "origin", you can add it with a different name.
   - git remote add new-origin <new-url>
   - Replace new-origin with a name of your choice and <new-url> with the URL of the new remote repository.
+
+Option 5: Removing the remote
+  - To remove the remote use below command 
+  - git remote remove origin
